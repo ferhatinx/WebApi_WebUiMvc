@@ -1,0 +1,33 @@
+@model List<WebApplicationUi.Models.ProductModel>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <a asp-action="Create" asp-controller="Home">Ürün Ekle</a>
+    <p>@ViewBag.Message</p>
+    <table>
+        @foreach (var p in Model)
+        {
+            <ul>
+                <li>@p.Id</li>
+                <li>@p.Name</li>
+                <li>@p.Price</li>
+                <li>@p.Stock</li>
+                <li>@p.CategoryId</li>
+                <li>@p.CreatedTime</li>
+                <li>
+                    <a asp-action="Update" asp-controller="Home" asp-route-id="@p.Id">Güncelle</a>
+                </li>
+            </ul>
+        }
+
+    </table>
+</body>
+
+</html>

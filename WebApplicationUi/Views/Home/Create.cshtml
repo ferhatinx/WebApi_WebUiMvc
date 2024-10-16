@@ -1,0 +1,27 @@
+@model ProductModel
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form asp-action="Create" asp-controller="Home" method="post">
+        <label>Ürün Adi</label>
+        <input asp-for="@Model.Name"><br>
+        <label>Ürün Fiyati</label>
+        <input asp-for="@Model.Price"><br>
+        <label>Ürün Stogu</label>
+        <input asp-for="@Model.Stock"><br>
+        <button type="submit">Ekle</button>
+
+    </form>
+    <div>
+        <a asp-action="Index" asp-controller="Home">Geri Dön</a>
+    </div>
+</body>
+
+</html>

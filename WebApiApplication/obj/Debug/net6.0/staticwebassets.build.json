@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "l8+ch3Gbv02ALAgayh+z7q0ng6paKJGUhcAwaxy6KW4=",
+  "Source": "WebApiApplication",
+  "BasePath": "_content/WebApiApplication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApiApplication\\wwwroot",
+      "Source": "WebApiApplication",
+      "ContentRoot": "c:\\Users\\Ferhat\\Documents\\c#\\Project\\WebApi\\WebApiApplication\\wwwroot\\",
+      "BasePath": "_content/WebApiApplication",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "c:\\Users\\Ferhat\\Documents\\c#\\Project\\WebApi\\WebApiApplication\\wwwroot\\2.PNG",
+      "SourceId": "WebApiApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\Ferhat\\Documents\\c#\\Project\\WebApi\\WebApiApplication\\wwwroot\\",
+      "BasePath": "_content/WebApiApplication",
+      "RelativePath": "2.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\2.PNG"
+    }
+  ]
+}
